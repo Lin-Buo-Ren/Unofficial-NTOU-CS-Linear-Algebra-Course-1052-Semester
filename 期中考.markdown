@@ -73,8 +73,16 @@ $$ \left[\begin{array}{cccc|c}
 0 & 0 & 0 & 0 & 0
 \end{array}\right] $$  
 為該矩陣的最簡列梯形形式
-1. 轉換回代數形式可得  
+1. 轉換回代數形式可得<br>
 $$ \begin{align*}
 x_1 - \frac{11}{30} x_4 &= \frac{16}{5} \\
 x_3 + \frac{1}{6} x_4 &= 0
-\end{align*} $$，令 $$ x_2 = s $$
+\end{align*} $$<br>
+，令 $$ x_2 = s $$、$$ x_4 = t $$ 可得：
+
+$$ \begin{align*}
+x_1 &= \frac{16}{5} + \frac{11}{30}t\\
+x_2 &= s\\
+x_3 &= -\frac{1}{6}t\\
+x_4 &= t
+\end{align*} $$
